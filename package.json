@@ -1,0 +1,17 @@
+{
+  "name": "cypress-ta-ecommerce-k6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:cloud":"npx cypress run --record --key c6eb52e9-6cb6-44de-989f-3dc3b75a8d7b"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.13.0"
+  }
+}
